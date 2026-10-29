@@ -81,7 +81,7 @@
                   "pm.test(\"Responde 200 OK\", () => pm.response.to.have.status(200));",
                   "const r = pm.response.json();",
                   "pm.test(\"Devuelve token y rol ADMIN\", () => { pm.expect(r.token).to.be.a(\"string\"); pm.expect(r.rol).to.eql(\"ADMIN\"); });",
-                  "pm.collectionVariables.set(\"tokenAdmin\", r.token);"
+                  "if (pm.response.code === 200) pm.collectionVariables.set(\"tokenAdmin\", r.token);"
                 ]
               }
             }
@@ -129,7 +129,7 @@
                   "pm.test(\"Responde 200 OK\", () => pm.response.to.have.status(200));",
                   "const r = pm.response.json();",
                   "pm.test(\"Rol USER\", () => pm.expect(r.rol).to.eql(\"USER\"));",
-                  "pm.collectionVariables.set(\"tokenUser\", r.token);"
+                  "if (pm.response.code === 200) pm.collectionVariables.set(\"tokenUser\", r.token);"
                 ]
               }
             }
