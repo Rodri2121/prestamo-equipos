@@ -1,0 +1,13 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Secretos locales: NUNCA subir
+.env
+
+.idea
+*.iml
+.vscode/
+.classpath
+.project
+.settings
