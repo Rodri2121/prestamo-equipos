@@ -9,15 +9,9 @@ Aplicación cliente-servidor:
 - **frontend/** — Interfaz **React 19 + Vite + Axios** (componentes funcionales, `useState`, `useEffect`).
 - **postman/** — Colección exportada con todas las pruebas del Reto 4 (con tests automáticos).
 
-## Integrantes
+## Autor
 
-| # | Integrante | Responsabilidad principal |
-|---|------------|---------------------------|
-| 1 | _(nombre)_ | Entidades, relaciones JPA y base de datos |
-| 2 | _(nombre)_ | CRUD, controladores y servicios |
-| 3 | _(nombre)_ | Spring Security, JWT y roles |
-| 4 | _(nombre)_ | React, Axios y visualización |
-| 5 | _(nombre)_ | Pruebas Postman, integración y evidencias |
+Rodrigo Dariel Romero González
 
 ## Requisitos
 
